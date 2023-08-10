@@ -163,9 +163,90 @@
 
 /* Navbar Style Ends Here */
 
-/* Hero Section Style Starts Here */
 
+
+/* Hero Section Style Starts Here */
+body{
+  background-color: #000;
+}
+
+.hero-section{
+  background: linear-gradient(180deg,rgba(24,24,31,0) 55%,#00d180);
+  padding:100px 80px;
+  color: white;;
+}
+
+.hero-section h1{
+  color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 84px;
+    text-align: left;
+}
+
+.hero-section p{
+  color: hsla(0,0%,100%,.6);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: left;
+  max-width: 560px;
+  padding-top: 32px;
+}
+
+.hero-section button{
+  align-items: center;
+  background: linear-gradient(180deg,#00ff9e,#00b870);
+  border: 2px solid hsla(0,0%,100%,.4);
+  border-radius: 56px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 20px;
+  margin-top: 40px;
+  padding: 15px 22px;
+}
+
+.hero-section .hrbtntxt{
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  justify-content: center;
+}
+
+.hero-section .hrbtnlogo{
+  width:26px;
+  height: 26px;
+}
+
+.hero-section .ext{
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.hero-section .scrty{
+  border-radius: 60px;
+  box-shadow: 0 12px 48px rgba(1,230,135,.5), inset 0 0 8px #00d180;
+  height: 249px;
+  outline: 2px solid hsla(0,0%,100%,.1);
+  outline-offset: -4px;
+  position: absolute;
+  right: 150px;
+  bottom: calc(100% - 700px);
+}
 /* Hero Section Style Ends Here */
+
+
 
 /* Stats Section Style Starts Here */
 
@@ -205,4 +286,237 @@
 .stats-column .icns {
   font-size: 13px;
 }
+
 /* Stats Section Style Ends Here */
+
+
+
+/* Accordian Section Starts Here*/
+
+/* AccordionSection.css */
+
+.accordion-wrapper{
+  background-color: #000;
+  padding: 120px 40px 80px;
+  color:white;
+}
+
+.accordion-list {
+  padding:20px;
+}
+
+.accordion-item:last-of-type, .accordion-item:first-of-type{
+  border-radius: 16px;
+}
+
+.accordion-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.accordion-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.accordion-list {
+  list-style: none;
+  padding: 0;
+}
+
+.accordion-item {
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  color: white;
+  margin: 16px auto;
+  padding: 10px;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 32px 32px 24px;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion-button {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.66px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* padding: 12px 20px; */
+  /* background-color: #f5f5f5; */
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  /* background-image: url("path/to/your/arrow-icon.svg"); */
+  /* background-size: contain; */
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-item.open .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px;
+  /* background-color: #f5f5f5; */
+  font-size: 14px;
+  color: #333;
+}
+
+.accordion-content.show{
+  display: block;
+  transition:  0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  padding: 20px 0px;
+  /* background-color: #f5f5f5; */
+  font-size: 14px;
+  color: white;
+}
+
+.accordion-mail {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Accordian Section Ends Here*/
+
+
+
+/* Video Section Style Starts Here */
+
+.video-section{
+  padding:120px 40px 80px;
+  color:white;
+  background-color: #000;
+}
+
+.video-section h1{
+  
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 57px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.video-section .feature{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hhh{
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.feature .num{
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26px;
+  align-items: center;
+  background-color: #00d180;
+  border-radius: 50%;
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.feature .content{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* Video Section Style Starts Here */
+
+.video-section{
+
+}
+
+.videocontainer{
+    background: #191919;
+    border: 2px solid hsla(0,0%,100%,.1);
+    border-radius: 32px;
+    box-shadow: 0 100px 80px rgba(0,0,0,.03), 0 64px 48px rgba(0,0,0,.05), 0 36px 24px rgba(0,0,0,.08), 0 24px 12px rgba(0,0,0,.1), 0 8px 8px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.16);
+    margin: 64px auto 0;
+    max-width: 792px;
+    height: 500px;
+    padding: 24px 24px 0;
+    width: calc(100% - 48px);
+}
+
+.videocontainer video{
+  height: 418px;
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .video-section .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+/* Footer Section Style Starts Here */
+
+.ftr{
+  background-color: #000;
+  text-align: left;
+  padding: 112px 30px 64px;
+  border-bottom: 1px solid #333;;
+}
+
+
+.ftr .icons{
+  display: inline-flex;
+  align-items: center;
+}
+
+.ftr .icon{
+  width: 40px;
+}
+
+.ics{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ftrbtm{
+  padding:40px;
+  background-color: #000;
+}
+
+.ftbtlnk{
+  color:white;
+  display: inline-flex;
+}
+
+.btlks{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btics{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Footer Section Style Ends Here */

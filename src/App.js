@@ -2,6 +2,8 @@ import "./styles.css";
 import Navbar from "./Components/Nav";
 import Hero from "./Components/Hero";
 import Stats from "./Components/Stats";
+import AccordionSection from "./Components/Accordian";
+import VideoSection from "./Components/Video";
 import Footer from "./Components/Footer";
 
 export default function App() {
@@ -10,6 +12,8 @@ export default function App() {
       <Navbar />
       <Hero />
       <Stats />
+      < VideoSection />
+      <AccordionSection />
       <Footer />
     </div>
   );

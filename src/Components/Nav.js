@@ -36,7 +36,7 @@ const Navbar = () => {
               <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <a href="#FAQ">FAQ</a>
             </li>
             <a href="#" className="download-button">
               Download

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./cstyle.css";
 import {
   FaTwitter,
@@ -10,16 +10,18 @@ import {
   FaProductHunt,
 } from "react-icons/fa";
 import SVGComponent from "../assets/logo";
+import ftrimg from "../assets/ftrr.svg";
 
 const Footer = () => {
   return (
-    <Footer className="ftr">
+    <>
+    <div className="ftr">
       <div className="container">
         <div className="row">
           <div className="col-md-8 logo">
             <SVGComponent />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 ics">
             <a href="#" className="icons">
               <FaTwitter className="icon" />
             </a>
@@ -44,7 +46,22 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </Footer>
+    </div>
+    <div className="ftrbtm">
+    <div className="container">
+        <div className="row">
+          <div className="col-md-5 btlks">            
+           <p className="copyrights ftbtlnk">@2023 Web3 Antivirus</p>
+           <a href="" className="ftbtlnk">Privacy Policy</a>
+           <a href="" className="ftbtlnk">Terms of Use</a>
+          </div>
+          <div className="col-md-7 btics">
+            <img src={ftrimg} />
+          </div>
+        </div>
+      </div>
+    </div>
+    </>
   );
 };
 
