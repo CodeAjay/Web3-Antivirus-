@@ -32,7 +32,7 @@ const AccordionSection = () => {
   return (
     <section className="accordion-wrapper" id="FAQ">
         <div className="container">
-      <h2 className="accordion-title">Any questions left?</h2>
+      <h1 className="accordion-title">Any questions left?</h1>
       <p className="accordion-description">
         Browse our FAQs below or email our friendly team at:{" "}<br />
         <a className="accordion-mail" href="mailto:support@w3a.tech">

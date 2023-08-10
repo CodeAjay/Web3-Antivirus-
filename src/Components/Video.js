@@ -26,7 +26,7 @@ const Features=({num, content})=>{
 const VideoSection =()=>{
     return(
         <>
-        <section className="video-section">
+        <section className="video-section" id="how">
             <h1>How Web3 Antivirus protects you</h1>
             <Container>
             <Row>

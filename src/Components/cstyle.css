@@ -347,7 +347,6 @@ body{
 }
 
 .accordion-title {
-  font-size: 24px;
   margin-bottom: 10px;
 }
 
@@ -435,6 +434,141 @@ body{
 
 /* Accordian Section Ends Here*/
 
+
+
+
+
+/* Why Section Starts Here*/
+
+.whysection{
+  padding: 120px 20px 40px;
+  color:white;
+}
+
+h1{
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 57px;
+  margin: 0 auto;
+  text-align: left; 
+  margin-bottom: 64px;
+}
+
+.whywhy{
+  text-align: left;
+  color: #999;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: left;
+}
+
+.whycontent{
+  display: flex;
+  gap: 10px;
+  align-items:center;
+  padding-bottom: 20px;
+}
+
+.whyimg{
+  color: #00d180;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.whycontent .whytext{
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+/* Why Section Ends Here*/
+
+
+/* Testimonial Section Starts here */
+
+.testimonial-section{
+  color:white;
+  padding:120px 20px 80px;
+}
+/* 
+.tsthd{
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.testimonial {
+  flex: 0 0 33.33%; 
+  opacity: 0.5; 
+  transition: opacity 0.3s ease;
+}
+
+.testimonial.active {
+  opacity: 1;
+} */
+.slick-prev {
+  left: 47% !important;
+  position: absolute;
+  top: 112% !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 50px !important;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+}
+
+.slick-next {
+  right: 47% !important;
+  position: absolute;
+  top:112% !important
+}
+
+.testimonial-container {
+  display: flex;
+  width: 100%; /* Set the total width based on the number of testimonials */
+  transform: translateX(calc(-100% * var(--index)));
+  transition: transform 0.3s ease;
+}
+
+.testimonial {
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 32px;
+  padding: 32px;
+}
+
+.testimonial.active {
+  opacity: 1;
+}
+
+.slick-slide{
+  margin:10px !important;
+}
+
+.slick-track{
+  display: inline-flex !important;
+}
+
+/* Add styling for slider controls as needed */
+
+
+
+/* Testimonial Section Ends here */
 
 
 /* Video Section Style Starts Here */

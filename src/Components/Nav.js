@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="mnb">
           <ul className={`menu ${isMenuOpen ? "open" : ""}`}>
             <li>
-              <a href="#">How it protects</a>
+              <a href="#how">How it protects</a>
             </li>
             <li>
               <a href="#">Reviews</a>
