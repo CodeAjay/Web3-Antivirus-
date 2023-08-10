@@ -1,5 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import chromelogo from '../assets/chrome-logo.svg';
+import firefoxlogo from '../assets/firefox-logo.svg';
+import bravelogo from '../assets/brave-logo.svg';
+import edgelogo from '../assets/edge-logo.svg';
 import './cstyle.css';
 
 const Features=({num, content})=>{
@@ -46,6 +50,24 @@ const VideoSection =()=>{
                     <source src="https://w3a.checknft.io/video/w3a-landing-video.mp4" type="video/mp4" />
                     <source src="https://w3a.checknft.io/video/w3a-landing-video.avif" />
                     </video>
+                    <Row className="rlgs">
+                        <Col md={3}>
+                        <img src={chromelogo} />
+                        <p className="rlgstxt">Chrome</p>
+                        </Col>
+                        <Col md={3}>
+                        <img src={firefoxlogo} />
+                        <p className="rlgstxt">Firefox</p>
+                        </Col>
+                        <Col md={3}>
+                        <img src={bravelogo} />
+                        <p className="rlgstxt">Brave</p>
+                        </Col>
+                        <Col md={3}>
+                        <img src={edgelogo} />
+                        <p className="rlgstxt">Edge</p>
+                        </Col>
+                    </Row>
                     </div>
                 </Col>
             </Row>
