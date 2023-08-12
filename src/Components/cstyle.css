@@ -280,6 +280,16 @@ body{
   animation: upwardAnimation 1s ease-in-out forwards;
 }
 
+@media (max-width:767px) {
+  .hero-section{
+    padding:40px 20px;
+  }
+
+  .hero-section .scrty{
+    display: none;
+  }
+}
+
 
 /* Hero Section Style Ends Here */
 
@@ -324,6 +334,17 @@ body{
   font-size: 13px;
 }
 
+
+@media screen and (max-width:768px) {
+  .stats-section{
+    padding: 100px 20px 40px 20px;
+  }
+  
+  .stats-column .col-md-3{
+    width:33%;
+    text-align: center;
+  }
+}
 /* Stats Section Style Ends Here */
 
 
@@ -430,6 +451,20 @@ body{
 .accordion-mail {
   color: #007bff;
   text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+  .accordion-title{
+    text-align: center;
+  }
+
+  .accordion-wrapper{
+    padding:100px 20px 50px;
+  }
+
+  .accordion-wrapper .container{
+    padding: 0px;
+  }
 }
 
 /* Accordian Section Ends Here*/
@@ -564,6 +599,16 @@ h1{
   display: inline-flex !important;
 }
 
+
+@media screen and (max-width:768px) {
+  .testimonial{
+    padding:15px;
+  }
+
+  .slick-prev, .slick-next{
+    display: none !important; 
+  }
+}
 /* Add styling for slider controls as needed */
 
 
@@ -666,10 +711,28 @@ h1{
   padding:15px
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+  .video-section{
+    padding:120px 20px 50px;
+  }
+
   .video-section .container {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .videocontainer{
+    height: max-content;
+    width: 100%;
+  }
+
+  .videocontainer video{
+    height: auto;
+  }
+
+  .rlgs .col-md-3{
+    width: 50% !important;
   }
 }
 
@@ -756,6 +819,16 @@ h1{
   color: #fff;
 }
 
+@media screen and (max-width:768px) {
+  .newsletter .container{
+    padding:20px;
+  }
+  .newsletter input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 /* Newsletter Section Style Ends Here */
 
 
@@ -806,4 +879,18 @@ h1{
   justify-content: flex-end;
 }
 
+
+@media screen and (max-width:768px){
+  .ics{
+    padding-top: 20px;
+  }
+
+  .ftrbtm{
+    padding-top: 0px;
+  }
+
+  .btics{
+    justify-content: center;
+  }
+}
 /* Footer Section Style Ends Here */
